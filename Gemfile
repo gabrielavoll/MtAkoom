@@ -5,3 +5,4 @@ gem 'sinatra', '1.1.0'
 
 gem 'rack'
 gem 'thin'
+gem 'compass'
