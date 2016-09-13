@@ -1,6 +1,7 @@
 
 h2 {
 	color: #af0101;
+	margin-top: 250px;
 	font-family: 'Denk One', sans-serif;
 }
 
@@ -9,6 +10,8 @@ body {
 	background-color: white;
 	background-color: black;
 	text-align: center;
+	text-decoration:none;
+	padding: 13px 10px 0px 10px;
 	font-family: 'Denk One', sans-serif;
 }
 
@@ -34,7 +37,7 @@ p.header {
 p.footer { font-size: x-small; }
 
 div.content {
-	margin: auto;
+	margin: 40px auto;
 	width: 960px;
 }
 
