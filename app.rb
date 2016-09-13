@@ -1,4 +1,8 @@
 require 'sinatra'
 get '/' do
-  "Gabs on  Heroku"
+  erb :index
+end
+
+get '/game' do
+  erb :game
 end
