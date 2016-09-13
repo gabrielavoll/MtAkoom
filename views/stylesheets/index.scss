@@ -1,11 +1,26 @@
 
-h2 { color:red; }
+h2 {
+	color: #af0101;
+	font-family: 'Denk One', sans-serif;
+}
 
 body {
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	background-color: white;
-	color: black;
+	background-color: black;
 	text-align: center;
+	font-family: 'Denk One', sans-serif;
+}
+
+.button {
+	width: 150px; 
+	background: #af0101;
+	color: #000000;
+	border-radius: 5px;
+	height: 35px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
 }
 a:link, a:visited { color: #000; }
 
