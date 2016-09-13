@@ -1,4 +1,4 @@
 require 'sinatra'
 get '/' do
-  "Learning Ruby on Heroku"
+  "Gabs on  Heroku"
 end
