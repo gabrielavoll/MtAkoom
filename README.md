@@ -7,6 +7,15 @@ embedded into a Ruby and Sinatra app ( the quickest solution I could think up)
 Hosted on a free and quick service, Heroku.
 
 
+# To Download off Git
+
+> git clone git@github.com:gato333/MtAkoom.git
+
+
+# To Spin up local Server utilzing Sinatra
+
+> bundle install
+> ruby app.rb
 
 
 Although I couldn't find any examples of what I intended to do with Ruby, Sinatra, and Unity. 
