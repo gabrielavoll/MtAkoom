@@ -1,0 +1,24 @@
+doctype
+html
+	head
+		link(rel="stylesheet" href="/public/MtAkoom/main.css")
+		link(rel="shortcut icon" type="image/x-icon" href="/public/MtAkoom/favicon.ico")
+		link(href="https://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet")
+		script(src="/public/MtAkoom/UnityProgress.js")
+		script(src="/public/MtAkoom/UnityLoader.js")
+
+		script.
+			var gameInstance = UnityLoader.instantiate(
+			  	"gameContainer", "/public/MtAkoom/MtAkoomWebGL.json", {onProgress: UnityProgress}
+			  );
+
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(http-equiv='Content-type', content='text/html; charset=UTF-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(property='og:title', content="Escape from Mt. Akoom" )
+		meta(name='description', content="Gabriela's first Unity Game")
+		title Escape from Mt. Akoom
+	body
+		div.content
+			div.webgl-content
+				div#gameContainer(style="width: 960px; height: 540px")
